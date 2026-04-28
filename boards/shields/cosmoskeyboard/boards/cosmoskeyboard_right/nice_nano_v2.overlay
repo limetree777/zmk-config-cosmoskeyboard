@@ -55,6 +55,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         evt-type = <INPUT_EV_REL>;
+        invert-y;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         irq-gpios = <&pro_micro 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
