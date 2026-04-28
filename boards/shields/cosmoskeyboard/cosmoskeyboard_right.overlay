@@ -36,5 +36,6 @@
 &input_split_right0 {
     status = "okay";
     device = <&input_device_right0>;
+    input-processors = <&zip_xy_invert_y>;
 };
 
