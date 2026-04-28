@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1055.00 411.00">
+  <style>
+    .key-bg { fill: #f5f5f5; stroke: #d4d4d4; stroke-width: 1; }
+    .key-index { fill: #171717; font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-weight: 700; text-anchor: middle; dominant-baseline: central; }
+    .key-part { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-anchor: middle; dominant-baseline: central; }
+    @media (prefers-color-scheme: dark) {
+      .key-bg { fill: #2a2a2a; stroke: #404040; }
+      .key-index { fill: #e5e5e5; }
+    }
+    .key-bg.part-0 { stroke: #f59e0b; }
+    .key-part.part-0 { fill: #f59e0b; }
+    .key-bg.part-1 { stroke: #14b8a6; }
+    .key-part.part-1 { fill: #14b8a6; }
+  </style>
+  <g>
+    <path class="key-bg part-0" d="M 26.00,88.50 L 84.00,88.50 Q 88.00,88.50 88.00,92.50 L 88.00,150.50 Q 88.00,154.50 84.00,154.50 L 26.00,154.50 Q 22.00,154.50 22.00,150.50 L 22.00,92.50 Q 22.00,88.50 26.00,88.50 Z" />
+    <path class="key-bg part-0" d="M 96.00,44.40 L 154.00,44.40 Q 158.00,44.40 158.00,48.40 L 158.00,106.40 Q 158.00,110.40 154.00,110.40 L 96.00,110.40 Q 92.00,110.40 92.00,106.40 L 92.00,48.40 Q 92.00,44.40 96.00,44.40 Z" />
+    <path class="key-bg part-0" d="M 166.00,22.00 L 224.00,22.00 Q 228.00,22.00 228.00,26.00 L 228.00,84.00 Q 228.00,88.00 224.00,88.00 L 166.00,88.00 Q 162.00,88.00 162.00,84.00 L 162.00,26.00 Q 162.00,22.00 166.00,22.00 Z" />
+    <path class="key-bg part-0" d="M 236.00,41.60 L 294.00,41.60 Q 298.00,41.60 298.00,45.60 L 298.00,103.60 Q 298.00,107.60 294.00,107.60 L 236.00,107.60 Q 232.00,107.60 232.00,103.60 L 232.00,45.60 Q 232.00,41.60 236.00,41.60 Z" />
+    <path class="key-bg part-0" d="M 306.00,51.40 L 364.00,51.40 Q 368.00,51.40 368.00,55.40 L 368.00,113.40 Q 368.00,117.40 364.00,117.40 L 306.00,117.40 Q 302.00,117.40 302.00,113.40 L 302.00,55.40 Q 302.00,51.40 306.00,51.40 Z" />
+    <path class="key-bg part-1" d="M 691.00,51.40 L 749.00,51.40 Q 753.00,51.40 753.00,55.40 L 753.00,113.40 Q 753.00,117.40 749.00,117.40 L 691.00,117.40 Q 687.00,117.40 687.00,113.40 L 687.00,55.40 Q 687.00,51.40 691.00,51.40 Z" />
+    <path class="key-bg part-1" d="M 761.00,41.60 L 819.00,41.60 Q 823.00,41.60 823.00,45.60 L 823.00,103.60 Q 823.00,107.60 819.00,107.60 L 761.00,107.60 Q 757.00,107.60 757.00,103.60 L 757.00,45.60 Q 757.00,41.60 761.00,41.60 Z" />
+    <path class="key-bg part-1" d="M 831.00,22.00 L 889.00,22.00 Q 893.00,22.00 893.00,26.00 L 893.00,84.00 Q 893.00,88.00 889.00,88.00 L 831.00,88.00 Q 827.00,88.00 827.00,84.00 L 827.00,26.00 Q 827.00,22.00 831.00,22.00 Z" />
+    <path class="key-bg part-1" d="M 901.00,44.40 L 959.00,44.40 Q 963.00,44.40 963.00,48.40 L 963.00,106.40 Q 963.00,110.40 959.00,110.40 L 901.00,110.40 Q 897.00,110.40 897.00,106.40 L 897.00,48.40 Q 897.00,44.40 901.00,44.40 Z" />
+    <path class="key-bg part-1" d="M 971.00,88.50 L 1029.00,88.50 Q 1033.00,88.50 1033.00,92.50 L 1033.00,150.50 Q 1033.00,154.50 1029.00,154.50 L 971.00,154.50 Q 967.00,154.50 967.00,150.50 L 967.00,92.50 Q 967.00,88.50 971.00,88.50 Z" />
+    <path class="key-bg part-0" d="M 26.00,158.50 L 84.00,158.50 Q 88.00,158.50 88.00,162.50 L 88.00,220.50 Q 88.00,224.50 84.00,224.50 L 26.00,224.50 Q 22.00,224.50 22.00,220.50 L 22.00,162.50 Q 22.00,158.50 26.00,158.50 Z" />
+    <path class="key-bg part-0" d="M 96.00,114.40 L 154.00,114.40 Q 158.00,114.40 158.00,118.40 L 158.00,176.40 Q 158.00,180.40 154.00,180.40 L 96.00,180.40 Q 92.00,180.40 92.00,176.40 L 92.00,118.40 Q 92.00,114.40 96.00,114.40 Z" />
+    <path class="key-bg part-0" d="M 166.00,92.00 L 224.00,92.00 Q 228.00,92.00 228.00,96.00 L 228.00,154.00 Q 228.00,158.00 224.00,158.00 L 166.00,158.00 Q 162.00,158.00 162.00,154.00 L 162.00,96.00 Q 162.00,92.00 166.00,92.00 Z" />
+    <path class="key-bg part-0" d="M 236.00,112.30 L 294.00,112.30 Q 298.00,112.30 298.00,116.30 L 298.00,174.30 Q 298.00,178.30 294.00,178.30 L 236.00,178.30 Q 232.00,178.30 232.00,174.30 L 232.00,116.30 Q 232.00,112.30 236.00,112.30 Z" />
+    <path class="key-bg part-0" d="M 306.00,121.40 L 364.00,121.40 Q 368.00,121.40 368.00,125.40 L 368.00,183.40 Q 368.00,187.40 364.00,187.40 L 306.00,187.40 Q 302.00,187.40 302.00,183.40 L 302.00,125.40 Q 302.00,121.40 306.00,121.40 Z" />
+    <path class="key-bg part-1" d="M 691.00,121.40 L 749.00,121.40 Q 753.00,121.40 753.00,125.40 L 753.00,183.40 Q 753.00,187.40 749.00,187.40 L 691.00,187.40 Q 687.00,187.40 687.00,183.40 L 687.00,125.40 Q 687.00,121.40 691.00,121.40 Z" />
+    <path class="key-bg part-1" d="M 761.00,112.30 L 819.00,112.30 Q 823.00,112.30 823.00,116.30 L 823.00,174.30 Q 823.00,178.30 819.00,178.30 L 761.00,178.30 Q 757.00,178.30 757.00,174.30 L 757.00,116.30 Q 757.00,112.30 761.00,112.30 Z" />
+    <path class="key-bg part-1" d="M 831.00,92.00 L 889.00,92.00 Q 893.00,92.00 893.00,96.00 L 893.00,154.00 Q 893.00,158.00 889.00,158.00 L 831.00,158.00 Q 827.00,158.00 827.00,154.00 L 827.00,96.00 Q 827.00,92.00 831.00,92.00 Z" />
+    <path class="key-bg part-1" d="M 901.00,114.40 L 959.00,114.40 Q 963.00,114.40 963.00,118.40 L 963.00,176.40 Q 963.00,180.40 959.00,180.40 L 901.00,180.40 Q 897.00,180.40 897.00,176.40 L 897.00,118.40 Q 897.00,114.40 901.00,114.40 Z" />
+    <path class="key-bg part-1" d="M 971.00,158.50 L 1029.00,158.50 Q 1033.00,158.50 1033.00,162.50 L 1033.00,220.50 Q 1033.00,224.50 1029.00,224.50 L 971.00,224.50 Q 967.00,224.50 967.00,220.50 L 967.00,162.50 Q 967.00,158.50 971.00,158.50 Z" />
+    <path class="key-bg part-0" d="M 26.00,228.50 L 84.00,228.50 Q 88.00,228.50 88.00,232.50 L 88.00,290.50 Q 88.00,294.50 84.00,294.50 L 26.00,294.50 Q 22.00,294.50 22.00,290.50 L 22.00,232.50 Q 22.00,228.50 26.00,228.50 Z" />
+    <path class="key-bg part-0" d="M 96.00,183.70 L 154.00,183.70 Q 158.00,183.70 158.00,187.70 L 158.00,245.70 Q 158.00,249.70 154.00,249.70 L 96.00,249.70 Q 92.00,249.70 92.00,245.70 L 92.00,187.70 Q 92.00,183.70 96.00,183.70 Z" />
+    <path class="key-bg part-0" d="M 166.00,162.00 L 224.00,162.00 Q 228.00,162.00 228.00,166.00 L 228.00,224.00 Q 228.00,228.00 224.00,228.00 L 166.00,228.00 Q 162.00,228.00 162.00,224.00 L 162.00,166.00 Q 162.00,162.00 166.00,162.00 Z" />
+    <path class="key-bg part-0" d="M 236.00,182.30 L 294.00,182.30 Q 298.00,182.30 298.00,186.30 L 298.00,244.30 Q 298.00,248.30 294.00,248.30 L 236.00,248.30 Q 232.00,248.30 232.00,244.30 L 232.00,186.30 Q 232.00,182.30 236.00,182.30 Z" />
+    <path class="key-bg part-0" d="M 306.00,191.40 L 364.00,191.40 Q 368.00,191.40 368.00,195.40 L 368.00,253.40 Q 368.00,257.40 364.00,257.40 L 306.00,257.40 Q 302.00,257.40 302.00,253.40 L 302.00,195.40 Q 302.00,191.40 306.00,191.40 Z" />
+    <path class="key-bg part-1" d="M 691.00,191.40 L 749.00,191.40 Q 753.00,191.40 753.00,195.40 L 753.00,253.40 Q 753.00,257.40 749.00,257.40 L 691.00,257.40 Q 687.00,257.40 687.00,253.40 L 687.00,195.40 Q 687.00,191.40 691.00,191.40 Z" />
+    <path class="key-bg part-1" d="M 761.00,182.30 L 819.00,182.30 Q 823.00,182.30 823.00,186.30 L 823.00,244.30 Q 823.00,248.30 819.00,248.30 L 761.00,248.30 Q 757.00,248.30 757.00,244.30 L 757.00,186.30 Q 757.00,182.30 761.00,182.30 Z" />
+    <path class="key-bg part-1" d="M 831.00,162.00 L 889.00,162.00 Q 893.00,162.00 893.00,166.00 L 893.00,224.00 Q 893.00,228.00 889.00,228.00 L 831.00,228.00 Q 827.00,228.00 827.00,224.00 L 827.00,166.00 Q 827.00,162.00 831.00,162.00 Z" />
+    <path class="key-bg part-1" d="M 901.00,183.70 L 959.00,183.70 Q 963.00,183.70 963.00,187.70 L 963.00,245.70 Q 963.00,249.70 959.00,249.70 L 901.00,249.70 Q 897.00,249.70 897.00,245.70 L 897.00,187.70 Q 897.00,183.70 901.00,183.70 Z" />
+    <path class="key-bg part-1" d="M 971.00,228.50 L 1029.00,228.50 Q 1033.00,228.50 1033.00,232.50 L 1033.00,290.50 Q 1033.00,294.50 1029.00,294.50 L 971.00,294.50 Q 967.00,294.50 967.00,290.50 L 967.00,232.50 Q 967.00,228.50 971.00,228.50 Z" />
+    <path class="key-bg part-0" d="M 166.00,232.00 L 224.00,232.00 Q 228.00,232.00 228.00,236.00 L 228.00,294.00 Q 228.00,298.00 224.00,298.00 L 166.00,298.00 Q 162.00,298.00 162.00,294.00 L 162.00,236.00 Q 162.00,232.00 166.00,232.00 Z" />
+    <path class="key-bg part-0" d="M 236.00,249.50 L 294.00,249.50 Q 298.00,249.50 298.00,253.50 L 298.00,311.50 Q 298.00,315.50 294.00,315.50 L 236.00,315.50 Q 232.00,315.50 232.00,311.50 L 232.00,253.50 Q 232.00,249.50 236.00,249.50 Z" />
+    <path class="key-bg part-0" d="M 364.28,273.75 L 420.30,288.76 Q 424.17,289.80 423.13,293.66 L 408.12,349.69 Q 407.09,353.55 403.22,352.52 L 347.20,337.50 Q 343.33,336.47 344.37,332.60 L 359.38,276.58 Q 360.42,272.72 364.28,273.75 Z" />
+    <path class="key-bg part-0" d="M 447.70,300.11 L 497.93,329.11 Q 501.39,331.11 499.39,334.57 L 470.39,384.80 Q 468.39,388.27 464.93,386.27 L 414.70,357.27 Q 411.23,355.27 413.23,351.80 L 442.23,301.57 Q 444.23,298.11 447.70,300.11 Z" />
+    <path class="key-bg part-1" d="M 557.07,329.11 L 607.30,300.11 Q 610.77,298.11 612.77,301.57 L 641.77,351.80 Q 643.77,355.27 640.30,357.27 L 590.07,386.27 Q 586.61,388.27 584.61,384.80 L 555.61,334.57 Q 553.61,331.11 557.07,329.11 Z" />
+    <path class="key-bg part-1" d="M 634.70,288.76 L 690.72,273.75 Q 694.58,272.72 695.62,276.58 L 710.63,332.60 Q 711.67,336.47 707.80,337.50 L 651.78,352.52 Q 647.91,353.55 646.88,349.69 L 631.87,293.66 Q 630.83,289.80 634.70,288.76 Z" />
+  </g>
+  <g>
+    <text class="key-index" x="55.00" y="109.86" font-size="26">0</text>
+    <text class="key-part part-0" x="55.00" y="137.14" font-size="18">left</text>
+    <text class="key-index" x="125.00" y="65.76" font-size="26">1</text>
+    <text class="key-part part-0" x="125.00" y="93.04" font-size="18">left</text>
+    <text class="key-index" x="195.00" y="43.36" font-size="26">2</text>
+    <text class="key-part part-0" x="195.00" y="70.64" font-size="18">left</text>
+    <text class="key-index" x="265.00" y="62.96" font-size="26">3</text>
+    <text class="key-part part-0" x="265.00" y="90.24" font-size="18">left</text>
+    <text class="key-index" x="335.00" y="72.76" font-size="26">4</text>
+    <text class="key-part part-0" x="335.00" y="100.04" font-size="18">left</text>
+    <text class="key-index" x="720.00" y="72.76" font-size="26">5</text>
+    <text class="key-part part-1" x="720.00" y="100.04" font-size="18">right</text>
+    <text class="key-index" x="790.00" y="62.96" font-size="26">6</text>
+    <text class="key-part part-1" x="790.00" y="90.24" font-size="18">right</text>
+    <text class="key-index" x="860.00" y="43.36" font-size="26">7</text>
+    <text class="key-part part-1" x="860.00" y="70.64" font-size="18">right</text>
+    <text class="key-index" x="930.00" y="65.76" font-size="26">8</text>
+    <text class="key-part part-1" x="930.00" y="93.04" font-size="18">right</text>
+    <text class="key-index" x="1000.00" y="109.86" font-size="26">9</text>
+    <text class="key-part part-1" x="1000.00" y="137.14" font-size="18">right</text>
+    <text class="key-index" x="55.00" y="179.86" font-size="26">10</text>
+    <text class="key-part part-0" x="55.00" y="207.14" font-size="18">left</text>
+    <text class="key-index" x="125.00" y="135.76" font-size="26">11</text>
+    <text class="key-part part-0" x="125.00" y="163.04" font-size="18">left</text>
+    <text class="key-index" x="195.00" y="113.36" font-size="26">12</text>
+    <text class="key-part part-0" x="195.00" y="140.64" font-size="18">left</text>
+    <text class="key-index" x="265.00" y="133.66" font-size="26">13</text>
+    <text class="key-part part-0" x="265.00" y="160.94" font-size="18">left</text>
+    <text class="key-index" x="335.00" y="142.76" font-size="26">14</text>
+    <text class="key-part part-0" x="335.00" y="170.04" font-size="18">left</text>
+    <text class="key-index" x="720.00" y="142.76" font-size="26">15</text>
+    <text class="key-part part-1" x="720.00" y="170.04" font-size="18">right</text>
+    <text class="key-index" x="790.00" y="133.66" font-size="26">16</text>
+    <text class="key-part part-1" x="790.00" y="160.94" font-size="18">right</text>
+    <text class="key-index" x="860.00" y="113.36" font-size="26">17</text>
+    <text class="key-part part-1" x="860.00" y="140.64" font-size="18">right</text>
+    <text class="key-index" x="930.00" y="135.76" font-size="26">18</text>
+    <text class="key-part part-1" x="930.00" y="163.04" font-size="18">right</text>
+    <text class="key-index" x="1000.00" y="179.86" font-size="26">19</text>
+    <text class="key-part part-1" x="1000.00" y="207.14" font-size="18">right</text>
+    <text class="key-index" x="55.00" y="249.86" font-size="26">20</text>
+    <text class="key-part part-0" x="55.00" y="277.14" font-size="18">left</text>
+    <text class="key-index" x="125.00" y="205.06" font-size="26">21</text>
+    <text class="key-part part-0" x="125.00" y="232.34" font-size="18">left</text>
+    <text class="key-index" x="195.00" y="183.36" font-size="26">22</text>
+    <text class="key-part part-0" x="195.00" y="210.64" font-size="18">left</text>
+    <text class="key-index" x="265.00" y="203.66" font-size="26">23</text>
+    <text class="key-part part-0" x="265.00" y="230.94" font-size="18">left</text>
+    <text class="key-index" x="335.00" y="212.76" font-size="26">24</text>
+    <text class="key-part part-0" x="335.00" y="240.04" font-size="18">left</text>
+    <text class="key-index" x="720.00" y="212.76" font-size="26">25</text>
+    <text class="key-part part-1" x="720.00" y="240.04" font-size="18">right</text>
+    <text class="key-index" x="790.00" y="203.66" font-size="26">26</text>
+    <text class="key-part part-1" x="790.00" y="230.94" font-size="18">right</text>
+    <text class="key-index" x="860.00" y="183.36" font-size="26">27</text>
+    <text class="key-part part-1" x="860.00" y="210.64" font-size="18">right</text>
+    <text class="key-index" x="930.00" y="205.06" font-size="26">28</text>
+    <text class="key-part part-1" x="930.00" y="232.34" font-size="18">right</text>
+    <text class="key-index" x="1000.00" y="249.86" font-size="26">29</text>
+    <text class="key-part part-1" x="1000.00" y="277.14" font-size="18">right</text>
+    <text class="key-index" x="195.00" y="253.36" font-size="26">30</text>
+    <text class="key-part part-0" x="195.00" y="280.64" font-size="18">left</text>
+    <text class="key-index" x="265.00" y="270.86" font-size="26">31</text>
+    <text class="key-part part-0" x="265.00" y="298.14" font-size="18">left</text>
+    <text class="key-index" x="383.75" y="301.49" font-size="26" transform="rotate(15 383.75 313.13)">32</text>
+    <text class="key-part part-0" x="383.75" y="328.77" font-size="18" transform="rotate(15 383.75 313.13)">left</text>
+    <text class="key-index" x="456.31" y="331.55" font-size="26" transform="rotate(30 456.31 343.19)">33</text>
+    <text class="key-part part-0" x="456.31" y="358.83" font-size="18" transform="rotate(30 456.31 343.19)">left</text>
+    <text class="key-index" x="598.69" y="331.55" font-size="26" transform="rotate(-30 598.69 343.19)">34</text>
+    <text class="key-part part-1" x="598.69" y="358.83" font-size="18" transform="rotate(-30 598.69 343.19)">right</text>
+    <text class="key-index" x="671.25" y="301.49" font-size="26" transform="rotate(-15 671.25 313.13)">35</text>
+    <text class="key-part part-1" x="671.25" y="328.77" font-size="18" transform="rotate(-15 671.25 313.13)">right</text>
+  </g>
+</svg>

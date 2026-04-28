@@ -1,0 +1,6 @@
+config SHIELD_COSMOSKEYBOARD_LEFT
+    def_bool $(shields_list_contains,cosmoskeyboard_left)
+  
+config SHIELD_COSMOSKEYBOARD_RIGHT
+    def_bool $(shields_list_contains,cosmoskeyboard_right)
+  
