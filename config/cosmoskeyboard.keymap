@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <input/processors.dtsi>      // 프로세서 관련
 
-&input_device_right0 {
+&input_split_right0 {
     status = "okay";
     scroller {
         layers = <1>; // left_layer의 인덱스 번호
