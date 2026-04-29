@@ -1,6 +1,15 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <input/processors.dtsi>      // 프로세서 관련
+
+&input_device_right0 {
+    status = "okay";
+    scroller {
+        layers = <1>; // left_layer의 인덱스 번호
+        input-processors = <&zip_xy_to_scroll_mapper>;
+    };
+};
 
 / {
     combos {
