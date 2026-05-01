@@ -5,8 +5,13 @@
 
 &input_split_right0 {
     status = "okay";
+};
+
+&trackball_peripheral_listener {
+    status = "okay";
+    
     scroller {
-        layers = <1>; // left_layer의 인덱스 번호
+        layers = <1>; // left_layer (인덱스 1)
         input-processors = <&zip_xy_to_scroll_mapper>;
     };
 };
