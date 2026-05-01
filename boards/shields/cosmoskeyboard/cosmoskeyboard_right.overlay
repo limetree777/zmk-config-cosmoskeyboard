@@ -30,15 +30,8 @@
 &physical_layout_cosmoskeyboard {
     kscan = <&kscan0>;
 };
-// == Input devices ==
-// Enabling input-split for its own input devices
-// Adding input devices and assigning them to input-split
+
 &input_split_right0 {
     status = "okay";
     device = <&input_device_right0>;
-
-    scroller {
-        layers = <1>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
-    };
 };
