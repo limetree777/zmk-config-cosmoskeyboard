@@ -8,11 +8,15 @@
         compatible = "zmk,input-listener";
         device = <&input_split_right0>;
 
+        // 기본: 마우스 이동 속도 조절
+        input-processors = <&zip_xy_scaler 1 2>;  // 마우스 속도 1/2 (취향껏 조절)
+
+        // 레이어 1 오버라이드: 마우스 이동을 스크롤로 완전히 교체
         scroller {
             layers = <1>;
             input-processors =
-                <&zip_xy_scaler 1 16>,          // xy를 1/16로 줄임
-                <&zip_xy_to_scroll_mapper>;     // 그 다음 스크롤로 변환
+                <&zip_xy_scaler 1 8>,           // 스크롤 속도 조절
+                <&zip_xy_to_scroll_mapper>;      // xy → 스크롤 변환
         };
     };
 };
