@@ -4,6 +4,18 @@
 #include <input/processors.dtsi>      // 프로세서 관련
 
 / {
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&input_split_right0>; 
+
+        scroller {
+            layers = <1>;
+            input-processors = <&zip_xy_to_scroll_mapper>;
+        };
+    };
+};
+
+/ {
     combos {
         compatible = "zmk,combos";
 
