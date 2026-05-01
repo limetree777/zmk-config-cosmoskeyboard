@@ -4,13 +4,30 @@
 #include <input/processors.dtsi>      // 프로세서 관련
 
 / {
+    zip_xy_to_scroll_mapper: zip_xy_to_scroll_mapper {
+        compatible = "zmk,input-processor-xy-to-scroll";
+    };
+
+    zip_scroll_scaler: zip_scroll_scaler {
+        compatible = "zmk,input-processor-scaler";
+        type = <INPUT_EV_REL>;
+        codes = <INPUT_REL_WHEEL>, <INPUT_REL_HWHEEL>;
+        track-remainders;
+        multiplier = <1>;
+        divisor = <8>;   // ← 이 값을 조절 (클수록 스크롤 느려짐)
+    };
+};
+
+/ {
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
-        device = <&input_split_right0>; 
+        device = <&input_split_right0>;
 
         scroller {
             layers = <1>;
-            input-processors = <&zip_xy_to_scroll_mapper>;
+            input-processors = 
+                <&zip_xy_to_scroll_mapper>,
+                <&zip_scroll_scaler>;  // mapper 다음에 scaler 적용
         };
     };
 };
