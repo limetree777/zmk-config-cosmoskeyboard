@@ -4,29 +4,15 @@
 #include <input/processors.dtsi>      // 프로세서 관련
 
 / {
-    zip_xy_to_scroll_mapper: zip_xy_to_scroll_mapper {
-        compatible = "zmk,input-processor-xy-to-scroll";
-    };
-
-    zip_xy_scaler: zip_xy_scaler {
-        compatible = "zmk,input-processor-scaler";
-        type = <INPUT_EV_REL>;
-        codes = <INPUT_REL_X>, <INPUT_REL_Y>;
-        track-remainders;
-        scale = <20>;   // xy를 20%로 줄인 뒤 스크롤로 변환
-    };
-};
-
-/ {
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&input_split_right0>;
 
         scroller {
             layers = <1>;
-            input-processors = 
-                <&zip_xy_scaler>,           // 먼저 xy 축소
-                <&zip_xy_to_scroll_mapper>; // 그 다음 스크롤 변환
+            input-processors =
+                <&zip_xy_scaler 1 8>,          // xy를 1/8로 줄임
+                <&zip_xy_to_scroll_mapper>;     // 그 다음 스크롤로 변환
         };
     };
 };
