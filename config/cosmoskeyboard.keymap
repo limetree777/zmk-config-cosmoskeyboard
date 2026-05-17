@@ -1,7 +1,8 @@
+#include <input/processors.dtsi>      // 프로세서 관련
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <input/processors.dtsi>      // 프로세서 관련
 
 / {
     trackball_listener: trackball_listener {
@@ -9,14 +10,17 @@
         device = <&input_split_right0>;
 
         // 기본: 마우스 이동 속도 조절
-        input-processors = <&zip_xy_scaler 1 2>;  // 마우스 속도 1/2 (취향껏 조절)
 
+        input-processors = <&zip_xy_scaler 1 2>;  // 마우스 속도 1/2 (취향껏 조절)
         // 레이어 1 오버라이드: 마우스 이동을 스크롤로 완전히 교체
+
         scroller {
             layers = <1>;
             input-processors =
-                <&zip_xy_scaler 1 8>,           // 스크롤 속도 조절
-                <&zip_xy_to_scroll_mapper>;      // xy → 스크롤 변환
+                <&zip_xy_scaler 1 8>,
+                // 스크롤 속도 조절,
+                <&zip_xy_to_scroll_mapper>;
+      // xy → 스크롤 변환
         };
     };
 };
@@ -108,10 +112,10 @@
 
         tri_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8
-&trans  &trans  &trans  &trans  &trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4
-        &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &sys_reset  &trans  &kp F9  &kp F10  &kp F11  &kp F12
+&trans          &bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans      &trans  &kp F5  &kp F6   &kp F7   &kp F8
+&bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans      &trans  &kp F1  &kp F2   &kp F3   &kp F4
+                &trans        &trans        &trans        &trans      &trans  &trans
             >;
         };
     };
